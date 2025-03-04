@@ -1,0 +1,238 @@
+/* header css start */
+
+.navbarHeader {
+  flex-grow: unset !important;
+}
+
+.headerMainDiv .topHeader {
+  position: relative;
+  padding: 10px 0;
+  z-index: 9999;
+}
+
+.topHeader .headerTopLeft .headerSocials a {
+  color: #fff;
+  width: 33px;
+  height: 33px;
+  line-height: 30px;
+  border-radius: 50px;
+  text-align: center;
+  border: 2px solid #fff;
+  margin-right: 10px;
+  transition: all .5s ease-in-out;
+}
+
+.topHeader .headerTopLeft .headerSocials a:hover {
+  color: #fff;
+  background: #fff;
+}
+
+.headerContact a {
+  color: #fff;
+  font-weight: 500;
+  transition: all .5s ease-in-out;
+}
+
+.headerContact a:hover,
+.mainHeader .mainNavbar.navbar .nav-link.active,
+.mainHeader .mainNavbar.navbar .nav-link:hover {
+  color: #fff;
+}
+
+.mainHeader .mainNavbar.navbar.fixed-top .nav-link {
+  color: var(--primary);
+}
+
+.mainHeader .mainNavbar.navbar.fixed-top .nav-link.active,
+.mainHeader .mainNavbar.navbar.fixed-top .nav-link:hover {
+  color: #fff;
+}
+
+.mainHeader {
+  position: relative;
+  z-index: 999;
+}
+
+.mainHeader .mainNavbar.navbar.fixed-top {
+  background: #051036;
+  box-shadow: 0 0 15px #0000002b;
+  animation: slide-down 0.7s;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.mainHeader .mainNavbar .headerLogo {
+  max-width: 188px;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link {
+  position: relative;
+  margin-right: 22px;
+  padding: 30px 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList {
+  position: absolute;
+  z-index: 9;
+  min-width: 220px;
+  padding: 10px;
+  background-color: white;
+  transform: rotateX(-75deg);
+  transform-origin: 0% 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  display: block;
+  margin-top: 0;
+  border: none;
+  left: -15px;
+  border-radius: 12px;
+  box-shadow: 0 0 50px 0 #20202026;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown:hover .navDropList {
+  display: block;
+  transition: .3s;
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+  transform: rotateX(0deg);
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList::before {
+  content: "\f0d8";
+  position: absolute;
+  font-family: "font awesome 6 pro";
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  left: 25px;
+  top: -40px;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList .list-group-item {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: var(--dark-text);
+  position: relative;
+  text-transform: capitalize;
+  transition: all .5s ease-in-out;
+  z-index: 1;
+  background-color: transparent;
+  border-width: 0;
+  border-bottom-width: 1px;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList .list-group-item:last-child {
+  border: 0;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList .list-group-item.active {
+  color: var(--primary);
+  border-color: #dee2e6;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList .list-group-item:hover {
+  background: 0 0;
+  color: var(--primary);
+  padding-left: 25px;
+  padding-right: 5px;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList .list-group-item::before {
+  content: "\f111";
+  position: absolute;
+  font-family: "font awesome 6 pro";
+  left: 12px;
+  top: 20.5px;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 6px;
+  transform: scale(0, 0);
+  transition: all .5s ease-in-out;
+  z-index: -1;
+}
+
+.mainHeader .mainNavbar.navbar .nav-link.navDropdown .navDropList .list-group-item:hover::before {
+  transform: scale(1, 1);
+}
+
+.mainHeader .navbar-toggler {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.mainHeader .navbar-toggler .navbar-toggler-icon {
+  background: none;
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 400;
+  position: relative;
+  color: white;
+  width: auto;
+  height: auto;
+  font-size: 25px;
+}
+
+.mainHeader .mainNavbar.navbar.fixed-top .navbar-toggler .navbar-toggler-icon {
+  color: #5d646d;
+}
+
+.mainHeader .navbar-toggler .navbar-toggler-icon::before {
+  content: "\f0c9";
+}
+
+/* header css end */
+
+
+/* Button css start */
+
+.mainHeader .becomeDriverBtn .becomeDriverReg {
+  background-color: #3b9cd6;
+  border: 1px solid #3b9cd6;
+  box-shadow: inset 0 0 0 #fff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 7px 20px
+}
+
+.mainHeader .becomeDriverBtn .becomeDriverReg span {
+  border-radius: 50% !important;
+  border: 1px solid white !important;
+  padding: 3px 7px 2px 7px !important;
+  font-size: 12px;
+}
+
+.mainHeader .becomeDriverBtn .becomeDriverReg:hover span {
+  border-radius: 50% !important;
+  border: 1px solid #3b9cd6 !important;
+  padding: 3px 3px 1px 3px !important;
+  font-size: 12px;
+}
+
+.mainHeader .becomeDriverBtn .becomeDriverReg:hover {
+  background-color: #fff;
+  border: 1px solid #3b9cd6;
+  box-shadow: inset 0 70px 0 0 #fff;
+  color: #3b9cd6;
+}
+
+.mainHeader .becomeDriverBtn .becomeDriverReg span {
+  margin: 0 5px 0 0
+}
+
+/* Button css end */

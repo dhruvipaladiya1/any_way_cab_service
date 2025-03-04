@@ -1,0 +1,258 @@
+@media(max-width:1399.98px) {
+  .benefitsCatGrid .benefitsCardContent h4 {
+    font-size: 16px
+  }
+}
+
+@media(max-width:1199.98px) {
+  .mainHeader .becomeDriverBtn .becomeDriverReg {
+    padding: 7px 15px
+  }
+
+  .search-nav img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .blueWay {
+    color: var(--primary);
+    font-size: 11px;
+  }
+
+  .blackWay {
+    color: #000000;
+    font-size: 11px;
+  }
+
+  .search-nav {
+    padding: 8px 15px;
+  }
+
+  .search-nav .nav-link {
+    padding: 6px 10px;
+  }
+}
+
+@media(max-width:991.98px) {
+  .mainClean .secondClean {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    flex-wrap: wrap !important;
+  }
+
+  .benefits-sec {
+    padding-bottom: 50px
+  }
+
+  .benefitsSec-header {
+    margin-bottom: 30px
+  }
+
+  .benefitsSec-header h2 {
+    font-size: 32px
+  }
+
+  .benefitsSec-header p {
+    font-size: 16px
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .mainHeader .becomeDriverBtn .becomeDriverReg {
+    padding: 8px 12px;
+    font-size: 14px
+  }
+
+  .mainBannerBg {
+    padding-top: 170px;
+    padding-bottom: 90px;
+  }
+
+  .mainBannerBg .homeBannerContent .bannerTitle {
+    font-size: 42px;
+  }
+
+  .mainBannerBg .homeBannerContent .bannerP {
+    font-size: 18px;
+  }
+
+  .mainBannerBg .bannerSearchDiv {
+    /* padding: 15px 20px 40px; */
+    padding: 25px 20px 40px;
+  }
+
+  .mainHeader .mainNavbar.navbar .navbar-collapse {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    padding: 0 20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 #20202026;
+    border-radius: 10px;
+  }
+
+  .mainHeader .mainNavbar.navbar .navbar-collapse .navbar-nav {
+    padding: 0 20px;
+  }
+
+  .mainHeader .mainNavbar.navbar .navbar-collapse .nav-link {
+    color: #757f95;
+    font-weight: 700;
+    transition: all .5s ease-in-out;
+    padding: 5px 0;
+  }
+
+
+  /* Book Cab CssS */
+
+  .search-nav {
+    margin: 0px;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: none !important;
+    margin-top: 20px !important;
+  }
+
+  .bannerSearchDiv {
+    position: relative;
+    top: 0;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  .bannerSearchDiv .bannerSearchForm .input-block-btn {
+    padding: 8px 66px;
+    border-radius: 42px;
+    font-weight: 500;
+    margin-top: 13px;
+    background: linear-gradient(93deg, #53b2fe, #065af3);
+    position: absolute;
+    right: 19%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .bannerSearchForm .bannerSearchCol {
+    background: rgb(247, 247, 247) !important;
+    height: 48px;
+    border-radius: 4px;
+    margin: 1px auto;
+    border: solid 1px #e7e7e7;
+  }
+
+  /* .fromSelect .css-1dimb5e-singleValue {
+    background: rgb(247, 247, 247) !important;
+  } */
+
+  .fromSelect .css-1cfo1cf,
+  .fromSelect .css-du1a0k-control,
+  .fromSelect .css-du1a0k-control:hover,
+  .fromSelect .css-13jpnx0-control {
+    border: none !important;
+    box-shadow: none !important;
+    min-height: 0px !important;
+    font-weight: 800 !important;
+  }
+
+  .bannerSearchForm .bannerSelect .form-control,
+  .bannerSearchForm .bannerSelect .form-control:active,
+  .bannerSearchForm .bannerSelect .form-control:focus {
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: 800 !important;
+    line-height: 17px !important;
+    background: rgb(247, 247, 247) !important;
+  }
+
+  .fromSelect .css-1cfo1cf,
+  .fromSelect .css-du1a0k-control,
+  .fromSelect .css-du1a0k-control:hover,
+  .fromSelect .css-13jpnx0-control {
+    border: none;
+    box-shadow: none;
+    padding: 1px 0px 0px 1px;
+    font-weight: 800;
+    font-size: 16px !important;
+  }
+
+  .bannerSearchForm .bannerSelect .form-control,
+  .bannerSearchForm .bannerSelect .form-control:active,
+  .bannerSearchForm .bannerSelect .form-control:focus {
+    font-size: 16px !important;
+    padding: 4px 2px 0px 1px;
+  }
+
+}
+
+@media(max-width:767.98px) {
+  .benefits-sec {
+    padding-bottom: 40px
+  }
+
+  .benefitsSec-header h2 {
+    font-size: 28px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainBannerBg .homeBannerContent .bannerTitle {
+    font-size: 37px;
+  }
+
+  .mainBannerBg .homeBannerContent .bannerP {
+    font-size: 16px;
+  }
+
+  .mainClean .secondClean {
+    display: flex;
+    /* gap: 13px; */
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mainClean .secondClean .thiredClean {
+    padding: 12px 15px;
+    border-right: unset;
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+  .mainHeader {
+    margin-top: 5px !important;
+  }
+
+  .mainBannerBg .homeBannerContent .bannerTitle {
+    font-size: 22px;
+  }
+
+  .mainBannerBg .homeBannerContent .bannerP {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .mainBannerBg .homeBannerContent {
+    display: none;
+  }
+
+  .mainHeader .mainNavbar.navbar .navbar-collapse .nav-link {
+    color: #757f95;
+    font-weight: 700;
+    transition: all .5s ease-in-out;
+    padding: 5px 0;
+  }
+
+
+  .mainHeader .mainNavbar.navbar .navbar-collapse .nav-link:active {
+    color: var(--primary);
+    font-weight: 700;
+    transition: all .5s ease-in-out;
+    padding: 5px 0;
+  }
+
+
+}

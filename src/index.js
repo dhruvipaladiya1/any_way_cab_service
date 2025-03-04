@@ -3,7 +3,15 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Assets/Css/all-fontawesome.min.css';
+import './Assets/Css/flaticon.css';
 
+// import css
+import './Assets/Css/app.css'
+import './Assets/Css/home.css'
+import './Assets/Css/headerFooter.css'
+import './Assets/Css/responsive.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
