@@ -1,0 +1,7 @@
+const API_SERVER_URL = process.env.REACT_APP_SERVER_URL;
+const IMG_SERVER_URL = process.env.REACT_APP_ADMIN_URL;
+
+export const ENV_CONSTANTS = {
+  API_SERVER_URL,
+  IMG_SERVER_URL
+};
