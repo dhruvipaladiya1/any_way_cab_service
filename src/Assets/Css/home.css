@@ -286,7 +286,7 @@
 /* tab home search css end */
 
 
-/* Clean and Hygienic Car css start */
+/* Clean and Hygienic Car start */
 
 .mainClean {
   box-shadow: 0 1px 30px 0 rgb(0 0 0 / 10%);
@@ -314,10 +314,10 @@
   border-right: unset !important;
 }
 
-/* Clean and Hygienic Car css end */
+/* Clean and Hygienic Car end */
 
 
-/* Special Benefits Section start */
+/* Special Benefits Section Css start */
 
 .benefits-sec {
   padding: 80px 0;
@@ -369,6 +369,22 @@
 .benefits-sec .benefitsRoundSec-colors span:last-child {
   left: 50%;
   bottom: 50px
+}
+
+.benefitsRoundSec-colors .round-small {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+  z-index: -1
+}
+
+.benefitsRoundSec-colors .round-small.bg-orange {
+  background: #3b9cd6 !important;
+}
+
+.benefitsRoundSec-colors .round-small.bg-dark-blue {
+  background: #3b9cd6 !important;
 }
 
 .benefits-sec .view-more-btn {
@@ -468,10 +484,412 @@
   transition: .5s all
 }
 
-/* Special Benefits Section end */
+/* Special Benefits Section Css end */
 
 
-/* One Way Taxi Routes Section Start */
+/* One Way Taxi Routes Section Css Start */
+
+.commonSection {
+  position: relative;
+  padding: 80px 0;
+}
+
+.taxiPopularServices {
+  background: #f2f7f6
+}
+
+.taxiSec-heading {
+  text-align: center;
+  margin: 0 0 40px
+}
+
+.taxiSec-heading h2 {
+  position: relative;
+  font-weight: 700;
+  margin: 0 0 30px;
+  color: #111 !important;
+}
+
+.taxiSec-heading h2:after {
+  content: "";
+  position: absolute;
+  background-image: url(../Images/bg/title-head.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  height: 11px;
+  right: 0;
+  bottom: -22px;
+  z-index: 99
+}
+
+.taxiSec-heading p {
+  max-width: 518px;
+  margin: auto;
+  font-size: 18px
+}
+
+.taxiPopularServices .taxiListingGroup {
+  margin: 0 0 40px
+}
+
+.taxiPopularServices .taxiListingGroup ul {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.taxiPopularServices .taxiListingGroup ul li a {
+  background: #fff;
+  border: 1px solid #f4f4f4;
+  padding: 10px 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: 600;
+  color: #676767;
+  border-radius: 6px
+}
+
+.taxiPopularServices .taxiListingGroup ul li a.active {
+  background: #3b9cd6;
+  color: #fff
+}
+
+.taxiPopularServices .taxiListingGroup ul li a:hover {
+  background: #3b9cd6;
+  color: #fff
+}
+
+.taxiPopularServices .taxiListingGroup ul li a span {
+  margin: 0 8px 0 0;
+  padding: 10px;
+  line-height: 0;
+  background: #fcfcfc;
+  border: 1px solid #f2f7f6;
+  border-radius: 6px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.taxiAboutList {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border: 1px solid #f5f5f5;
+  min-height: 100px;
+  width: 100%;
+  transition: .5s;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(17 121 239 / 15%);
+  background: #fff
+}
+
+.taxiInstyIcon img {
+  object-fit: cover;
+  height: 99px;
+}
+
+.taxiInstyIcon {
+  display: flex !important;
+  align-items: center !important;
+  width: 35%;
+  background: #f5f5f5 !important;
+}
+
+.taxiInstryText {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.taxiInstryText h4.taxiSubHead {
+  margin: 0;
+  font-size: 16px;
+}
+
+h4.taxiSubHead {
+  font-size: 18px;
+  font-weight: 600;
+  color: #032d60;
+  line-height: 28px;
+  margin: 5px 0 15px;
+}
+
+/* One Way Taxi Routes Section Css End */
 
 
-/* One Way Taxi Routes Section End */
+/* Why Choose Us Section Css Start */
+
+.whyChoose .whyChoose-right {
+  position: absolute;
+  top: 0;
+  right: 0
+}
+
+.whyChoose-heading {
+  text-align: center;
+  margin: 0 0 40px
+}
+
+.whyChoose-heading h2 {
+  position: relative;
+  font-weight: 700;
+  margin: 0 0 30px;
+  color: #111 !important;
+}
+
+.whyChoose-heading h2:after {
+  content: "";
+  position: absolute;
+  background-image: url(../Images/bg/title-head.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  height: 11px;
+  right: 0;
+  bottom: -22px;
+  z-index: 99
+}
+
+.whyChoose-heading p {
+  max-width: 518px;
+  margin: auto;
+  font-size: 18px
+}
+
+.whyChoose .services-group {
+  margin: 0 0 24px;
+  padding: 24px;
+  border-bottom: 2px solid #3b9cd6;
+  text-align: center;
+  position: relative
+}
+
+.whyChoose .services-group::before {
+  position: absolute;
+  top: 72px;
+  right: 0;
+  left: calc(50% + 65px);
+  content: "";
+  border: 1px dashed #dbdbdb;
+  width: calc(100% - 106px)
+}
+
+.whyChoose .services-group.service-date {
+  border-color: #3b9cd6 !important;
+}
+
+.whyChoose .services-group.service-loc {
+  border-color: #ff9307 !important;
+}
+
+.whyChoose .services-group.service-book {
+  border-color: #201f1d !important;
+}
+
+.whyChoose .services-group .services-icon .bg-secondary {
+  background: #3b9cd6 !important
+}
+
+.border-secondary {
+  border: 2px dashed #3b9cd6 !important;
+}
+
+.bg-warning {
+  background: #ff9307 !important
+}
+
+.border-warning {
+  border: 2px dashed #ff9307
+}
+
+.bg-dark {
+  background: #201f1d
+}
+
+.border-dark {
+  border: 2px dashed #201f1d
+}
+
+.whyChoose .services-group.service-book::before {
+  content: none
+}
+
+.whyChoose .services-group .services-icon {
+  border-radius: 50px !important;
+  margin: 0 0 35px;
+  padding: 10px;
+  background: #fff;
+  position: relative;
+  z-index: 99
+}
+
+.whyChoose .services-group .services-icon .icon-img {
+  border-radius: 50px;
+  width: 72px;
+  height: 72px;
+  padding: 10px
+}
+
+.whyChoose .services-group .services-content h3 {
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+/* Why Choose Us Section Css End */
+
+
+/* *About Anywaycab Section Css Start */
+
+
+.abouttAnyWaySec {
+  padding: 80px 0;
+  background: #fff;
+  position: relative;
+  z-index: 1
+}
+
+.abouttAnyWaySec .aboutSecHeaderTwo {
+  align-items: start;
+  text-align: left;
+  padding-left: 50px;
+  margin-bottom: 30px
+}
+
+.abouttAnyWaySec .aboutSecHeaderTwo p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 20px
+}
+
+.aboutSecHeaderTwo h2 {
+  font-size: 31px;
+  color: #0a152f;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 20px
+}
+
+.abouttAnyWaySec .aboutSecHeaderTwo h2::after {
+  left: 0;
+  transform: none;
+}
+
+.aboutSecHeaderTwo h2::after {
+  content: "";
+  background-image: url(../Images/bg/title-bar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px
+}
+
+.abouttAnyWaySec .aboutSecHeaderTwo h4 {
+  color: #676767;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 5px
+}
+
+.abouttAnyWaySec .aboutSecRound span {
+  position: absolute;
+  z-index: -1
+}
+
+.abouttAnyWaySec .aboutSecRound span:first-child {
+  left: 5%;
+  top: 20px
+}
+
+.abouttAnyWaySec .aboutSecRound span:nth-child(2) {
+  right: 5%;
+  top: 5%
+}
+
+.abouttAnyWaySec .aboutSecRound span:nth-child(3) {
+  right: 10%;
+  top: 60%
+}
+
+.abouttAnyWaySec .aboutSecRound span:nth-child(4) {
+  left: 50px;
+  top: 65%
+}
+
+.abouttAnyWaySec .aboutSecBg img:first-child {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  max-width: 600px
+}
+
+.abouttAnyWaySec .aboutSecBg img:nth-child(2) {
+  position: absolute;
+  z-index: -1;
+  right: 50px;
+  top: 80px
+}
+
+
+.aboutSecColLeftImg {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px
+}
+
+.aboutSecColLeftImg>span {
+  display: inline-flex;
+  border-radius: 10px
+}
+
+.aboutSecColLeftImg>span.sec-left-two {
+  margin-left: -50px
+}
+
+.aboutSecColLeftImg>span img {
+  border-radius: 10px
+}
+
+.aboutSecColLeftImg .experience-info {
+  width: 153px;
+  height: 153px;
+  box-shadow: 0 4px 24px 0 rgba(225, 225, 225, .2509803922);
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.aboutSecColLeftImg .experience-info h5 {
+  color: #3b9cd6;
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center
+}
+
+.aboutSecColLeftImg .experience-info h5 span {
+  font-size: 14px;
+  display: block;
+  color: #676767;
+  font-weight: 400
+}
+
+/* *About Anywaycab Section Css End */

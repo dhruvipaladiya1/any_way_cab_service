@@ -13,11 +13,16 @@ import catSec3 from "../Assets/Images/bg/any-cat-sec-bg-03.png"
 import cars1 from "../Assets/Images/car1.jpg"
 import cars2 from "../Assets/Images/car2.jpg"
 import cars3 from "../Assets/Images/car3.png"
+import { Link } from 'react-router'
+import OurTaxiRoutesHome from './OurTaxiRoutes/OurTaxiRoutesHome'
+import WhyChooseUs from './WhyChooseUs/WhyChooseUs'
+import AboutAnywaycab from './AboutAnywaycab/AboutAnywaycab'
 
 const Home = () => {
+
   return (
     <>
-      {/* banner section start */}
+      {/* banner section */}
       <div className='mainBannerSec position-relative'>
         <div className='mainBannerBg'>
           <Container>
@@ -29,9 +34,8 @@ const Home = () => {
           </Container>
         </div>
       </div>
-      {/* banner section end */}
 
-      {/* Clean and Hygienic Car Section start */}
+      {/* Clean and Hygienic Car Section */}
       <section className='mt-4'>
         <Container>
           <div className='mainClean'>
@@ -60,10 +64,8 @@ const Home = () => {
           </div>
         </Container>
       </section>
-      {/* Clean and Hygienic Car Section end */}
 
-
-      {/* Special Benefits Section start */}
+      {/* Special Benefits Section */}
       <section className="benefits-sec">
         <div className="benefitsSec-bg">
           <img src={catSec2} className="vector-round" alt="Img" />
@@ -112,7 +114,7 @@ const Home = () => {
                 </div>
                 <div className="benefitsCardContent d-flex align-items-center justify-content-between">
                   <div>
-                    <h4><a href="/">Book Your First Ride & Get Up to 40% Discount!</a></h4>
+                    <h4><a href="/">Book Your First Ride & Get Up to <br /> 40% Discount!</a></h4>
                   </div>
                 </div>
               </div>
@@ -120,12 +122,16 @@ const Home = () => {
           </Row>
         </div>
       </section>
-      {/* Special Benefits Section end */}
 
+      {/* One Way Taxi Routes Section */}
+      <OurTaxiRoutesHome />
 
-      {/* One Way Taxi Routes Section Start */}
+      {/* Why Choose Us Section */}
+      <WhyChooseUs />
 
-      {/* One Way Taxi Routes Section End */}
+      {/*About Anywaycab Section */}
+      <AboutAnywaycab />
+
     </>
   )
 }

@@ -213,14 +213,14 @@
 .mainHeader .becomeDriverBtn .becomeDriverReg span {
   border-radius: 50% !important;
   border: 1px solid white !important;
-  padding: 3px 7px 2px 7px !important;
+  padding: 0px 3px 0px 3px !important;
   font-size: 12px;
 }
 
 .mainHeader .becomeDriverBtn .becomeDriverReg:hover span {
   border-radius: 50% !important;
   border: 1px solid #3b9cd6 !important;
-  padding: 3px 3px 1px 3px !important;
+  padding: 0px 3px 0px 3px !important;
   font-size: 12px;
 }
 

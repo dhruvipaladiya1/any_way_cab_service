@@ -12,6 +12,7 @@ import './Assets/Css/app.css'
 import './Assets/Css/home.css'
 import './Assets/Css/headerFooter.css'
 import './Assets/Css/responsive.css'
+// import './Assets/Css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

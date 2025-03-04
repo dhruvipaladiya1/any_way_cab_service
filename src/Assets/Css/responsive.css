@@ -31,6 +31,10 @@
   .search-nav .nav-link {
     padding: 6px 10px;
   }
+
+  .mainHeader .mainNavbar.navbar .nav-link {
+    font-size: 14px !important;
+  }
 }
 
 @media(max-width:991.98px) {
@@ -55,6 +59,80 @@
 
   .benefitsSec-header p {
     font-size: 16px
+  }
+
+  .taxiSec-heading {
+    margin: 0 0 30px
+  }
+
+  .taxiSec-heading h2 {
+    margin: 0 0 20px
+  }
+
+  .taxiSec-heading h2:after {
+    bottom: -17px
+  }
+
+  .taxiSec-heading p {
+    font-size: 16px
+  }
+
+
+  /* our taxi routes css start  */
+
+  .taxiPopularServices .taxiListingGroup {
+    margin: 0 0 30px
+  }
+
+  .taxiPopularServices .taxiListingGroup ul li a {
+    padding: 8px 18px;
+    font-size: 14px;
+    min-width: 120px
+  }
+
+  .taxiPopularServices .taxiListingGroup ul li a span {
+    padding: 8px;
+    width: 30px;
+    height: 30px
+  }
+
+  /* why choose us css start  */
+  .whyChoose .whyChoose-right {
+    display: none
+  }
+
+  .whyChoose-heading {
+    margin: 0 0 30px
+  }
+
+  .whyChoose-heading h2 {
+    margin: 0 0 20px
+  }
+
+  .whyChoose-heading h2:after {
+    bottom: -17px
+  }
+
+  .whyChoose .services-group .services-icon {
+    padding: 8px
+  }
+
+  .whyChoose .services-group .services-icon .icon-img {
+    padding: 8px
+  }
+
+
+  /* about anyway cab css start */
+  .aboutSecColLeftImg {
+    display: none
+  }
+
+  .abouttAnyWaySec .aboutSecHeaderTwo {
+    padding-left: 0
+  }
+
+  .abouttAnyWaySec {
+    padding: 50px 0
   }
 
 }
@@ -194,7 +272,47 @@
   .benefitsSec-header h2 {
     font-size: 28px
   }
+
+  /* our taxi routes css start  */
+  .taxiPopularServices .taxiListingGroup ul {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .taxiPopularServices .taxiListingGroup ul li a {
+    min-width: 120px
+  }
+
+  /* why choose css start */
+  .whyChoose .services-group::before {
+    content: none
+  }
+
+  /* about anyway cab css start */
+  .abouttAnyWaySec {
+    padding: 40px 0
+  }
+
 }
+
+@media screen and (min-width: 768px) {
+  .taxiInstyIcon {
+    display: flex !important;
+    align-items: center !important;
+    width: 25% !important;
+    background: #f5f5f5 !important;
+  }
+
+  .taxiInstryText {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    background: #fff;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
   .mainBannerBg .homeBannerContent .bannerTitle {
