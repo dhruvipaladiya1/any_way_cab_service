@@ -29,7 +29,8 @@ body {
 }
 
 a {
-  color: #fff;
+  /* color: #fff; */
+  color: var(--primary);
   display: inline-block;
 }
 
@@ -77,6 +78,15 @@ img {
 h3 {
   font-weight: 700;
   font-size: 24px;
+  color: #111;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-weight: 700;
   color: #111;
 }
 

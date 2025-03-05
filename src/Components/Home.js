@@ -18,6 +18,17 @@ import OurTaxiRoutesHome from './OurTaxiRoutes/OurTaxiRoutesHome'
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs'
 import AboutAnywaycab from './AboutAnywaycab/AboutAnywaycab'
 
+import customer1 from "../Assets/Images/c1.png"
+import customer2 from "../Assets/Images/c2.png"
+import customer3 from "../Assets/Images/c3.png"
+import customer4 from "../Assets/Images/c4.png"
+import CountUp from 'react-countup'
+import LocalPackages from './LocalPackages/LocalPackages'
+import OneWayCabRoutes from './OneWayCabRoutes/OneWayCabRoutes'
+import Blogs from './Blogs/Blogs'
+import OurTopCabRoot from './OurTaxiRoutes/OurTopCabRoot'
+import CustomerReviews from './CustomerReviews/CustomerReviews'
+
 const Home = () => {
 
   return (
@@ -131,6 +142,94 @@ const Home = () => {
 
       {/*About Anywaycab Section */}
       <AboutAnywaycab />
+
+      {/* Customers count Section */}
+      <section className="customerSec">
+        <div className="customerSec-colors">
+          <span className="bg-orange round-small"></span>
+          <span className="bg-orange round-small"></span>
+          <span className="bg-dark-blue round-small"></span>
+          <span className="bg-dark-blue round-big"></span>
+        </div>
+        <Container>
+          <div className="counter-group customerCounterGroup m-0">
+            <div className="row">
+              <div className="col-lg-3 col-md-6 col-12 d-flex">
+                <div className="customerGroup flex-fill">
+                  <div className="customerCount d-flex align-items-center">
+                    <div className="countImg">
+                      <img src={customer1} alt="Icon" />
+                    </div>
+                    <div className="countContent">
+                      {/* <h4><span className="counterUp">6,800</span>+</h4> */}
+                      <h4><CountUp start={0} end={6800} duration={3} separator="," />+</h4>
+                      <p>Customers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12 d-flex">
+                <div className="customerGroup flex-fill">
+                  <div className="customerCount d-flex align-items-center">
+                    <div className="countImg">
+                      <img src={customer2} alt="Icon" />
+                    </div>
+                    <div className="countContent">
+                      {/* <h4><span className="counterUp">5000</span>k</h4> */}
+                      <h4><CountUp start={0} end={5000} duration={3} separator="," />k</h4>
+                      <p>One Way Cab Routes</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12 d-flex">
+                <div className="customerGroup flex-fill">
+                  <div className="customerCount d-flex align-items-center">
+                    <div className="countImg">
+                      <img src={customer3} alt="Icon" />
+                    </div>
+                    <div className="countContent">
+                      {/* <h4><span className="counterUp">4.88</span></h4> */}
+                      <h4><CountUp start={0} end={4.88} duration={3} separator="," /></h4>
+                      <p>User Ratings</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-12 d-flex">
+                <div className="customerGroup flex-fill">
+                  <div className="customerCount d-flex align-items-center">
+                    <div className="countImg">
+                      <img src={customer4} alt="Icon" />
+                    </div>
+                    <div className="countContent">
+                      {/* <h4><span className="counterUp">50,000</span>+</h4> */}
+                      <h4><CountUp start={0} end={50000} duration={3} separator="," />+</h4>
+                      <p>Successful Trip</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Local Packages Section */}
+      <LocalPackages />
+
+      {/* One Way Cab Routes Section */}
+      <OneWayCabRoutes />
+
+      {/* Blog Section */}
+      <Blogs />
+
+      {/* Our Top Cab Root Section */}
+      <OurTopCabRoot />
+
+      {/* Customer Reviews Anywaycab Section */}
+      <CustomerReviews />
+
 
     </>
   )

@@ -1,4 +1,4 @@
-/* home page start */
+/* ================================ home page start ================================ */
 
 .error-message {
   color: red !important;
@@ -47,11 +47,10 @@
   margin-bottom: 20px;
 }
 
-/* home page end */
+/* ================================ home page end ================================ */
 
 
-
-/* tab home search css start */
+/* ================================ tab home search css start ================================ */
 
 .search-nav {
   overflow-x: auto;
@@ -283,10 +282,10 @@
   transition: all .5s
 }
 
-/* tab home search css end */
+/* ================================ tab home search css end ================================ */
 
 
-/* Clean and Hygienic Car start */
+/* ================================ Clean and Hygienic Car start ================================ */
 
 .mainClean {
   box-shadow: 0 1px 30px 0 rgb(0 0 0 / 10%);
@@ -314,10 +313,10 @@
   border-right: unset !important;
 }
 
-/* Clean and Hygienic Car end */
+/* ================================ Clean and Hygienic Car end ================================ */
 
 
-/* Special Benefits Section Css start */
+/* ================================ Special Benefits Section Css start ================================ */
 
 .benefits-sec {
   padding: 80px 0;
@@ -371,6 +370,17 @@
   bottom: 50px
 }
 
+.customerSec-colors .round-big {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: block;
+  z-index: -1;
+}
+
+.clienReviewColors .round-small,
+.customerSec-colors .round-small,
+.aboutSecRound .round-small,
 .benefitsRoundSec-colors .round-small {
   width: 8px;
   height: 8px;
@@ -379,10 +389,15 @@
   z-index: -1
 }
 
+.customerSec-colors .round-small.bg-orange,
+.aboutSecRound .round-small.bg-orange,
 .benefitsRoundSec-colors .round-small.bg-orange {
   background: #3b9cd6 !important;
 }
 
+.customerSec-colors .round-small.bg-dark-blue,
+.customerSec-colors .round-big.bg-dark-blue,
+.aboutSecRound .round-small.bg-dark-blue,
 .benefitsRoundSec-colors .round-small.bg-dark-blue {
   background: #3b9cd6 !important;
 }
@@ -484,10 +499,10 @@
   transition: .5s all
 }
 
-/* Special Benefits Section Css end */
+/* ================================ Special Benefits Section Css end ================================ */
 
 
-/* One Way Taxi Routes Section Css Start */
+/* ================================ One Way Taxi Routes Section Css Start ================================ */
 
 .commonSection {
   position: relative;
@@ -620,10 +635,10 @@ h4.taxiSubHead {
   margin: 5px 0 15px;
 }
 
-/* One Way Taxi Routes Section Css End */
+/* ================================ One Way Taxi Routes Section Css End ================================ */
 
 
-/* Why Choose Us Section Css Start */
+/* ================================ Why Choose Us Section Css Start ================================ */
 
 .whyChoose .whyChoose-right {
   position: absolute;
@@ -741,10 +756,10 @@ h4.taxiSubHead {
   margin: 0 0 10px;
 }
 
-/* Why Choose Us Section Css End */
+/* ================================ Why Choose Us Section Css End ================================ */
 
 
-/* *About Anywaycab Section Css Start */
+/* ================================ About Anywaycab Section Css Start ================================ */
 
 
 .abouttAnyWaySec {
@@ -840,7 +855,6 @@ h4.taxiSubHead {
   top: 80px
 }
 
-
 .aboutSecColLeftImg {
   display: flex;
   align-items: center;
@@ -892,4 +906,652 @@ h4.taxiSubHead {
   font-weight: 400
 }
 
-/* *About Anywaycab Section Css End */
+.learnMore {
+  background-color: #3b9cd6 !important;
+  border: 1px solid #3b9cd6 !important;
+  box-shadow: inset 0 0 0 0 #fff !important;
+}
+
+.learnMore:hover {
+  background-color: #fff !important;
+  border-color: #3b9cd6 !important;
+  color: #3b9cd6 !important;
+  box-shadow: inset 0 50px 0 0 #fff !important;
+  transition: all .5s !important;
+}
+
+/* ================================ About Anywaycab Section Css End ================================ */
+
+
+/* ================================ Customers count Section Css Start ================================ */
+
+.customerSec {
+  background: #f2f7f6;
+  padding: 80px 0 70px;
+  position: relative;
+  z-index: 1
+}
+
+.customerSec .customerSec-colors span {
+  position: absolute;
+  z-index: -1
+}
+
+.customerSec .customerSec-colors span:first-child {
+  left: 5%;
+  top: 5%
+}
+
+.customerSec .customerSec-colors span:nth-child(2) {
+  right: 6%;
+  bottom: 45%
+}
+
+.customerSec .customerSec-colors span:nth-child(3) {
+  left: 10px;
+  top: 50%
+}
+
+.customerSec .customerSec-colors span:nth-child(4) {
+  left: 5%;
+  bottom: 100px
+}
+
+.customerCounterGroup {
+  margin-bottom: 56px
+}
+
+.customerCounterGroup .customerGroup {
+  box-shadow: 0 4px 24px 0 rgba(225, 225, 225, .2509803922);
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.customerCounterGroup .customerGroup .customerCount .countImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #f2f7f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 24px
+}
+
+.customerCounterGroup .customerGroup .countContent h4 {
+  font-weight: 700;
+  font-size: 28px
+}
+
+/* ================================ Customers count Section Css End ================================ */
+
+
+/* ================================ Local Packages Section Css Start ================================ */
+
+.destinationSec {
+  position: relative;
+  padding: 80px 0 56px
+}
+
+.destinationSec .destinationSecHeading {
+  max-width: 672px
+}
+
+.destinationBg .shape-01 {
+  position: absolute;
+  top: 5%;
+  left: 5%
+}
+
+.destinationBg .shape-02 {
+  position: absolute;
+  right: 3%;
+  bottom: 20%
+}
+
+.destinationSecHeading {
+  text-align: center;
+  margin: 0 0 40px
+}
+
+.destinationSecHeading h2 {
+  position: relative;
+  font-weight: 700;
+  margin: 0 0 30px
+}
+
+.destinationSecHeading h2:after {
+  content: "";
+  position: absolute;
+  background-image: url(../Images/bg/title-head.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  height: 11px;
+  right: 0;
+  bottom: -22px;
+  z-index: 99
+}
+
+.destinationSecHeading p {
+  max-width: 518px;
+  margin: auto;
+  font-size: 18px
+}
+
+.destinationWrap {
+  position: relative;
+  -webkit-transition: 500ms all ease;
+  -ms-transition: 500ms all ease;
+  transition: 500ms all ease;
+  margin-bottom: 24px
+}
+
+.destinationWrap .destinationImg img {
+  border-radius: 10px
+}
+
+.destinationImg img {
+  object-fit: cover;
+  min-height: 323px;
+}
+
+.destinationWrap .destinationContent {
+  background: linear-gradient(359.14deg, #000000 -1.08%, rgba(0, 0, 0, 0) 54.58%);
+  border-radius: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: ease-in-out 1s;
+  -ms-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  justify-content: end;
+  -webkit-justify-content: end;
+  -ms-flex-pack: end;
+  flex-direction: column
+}
+
+.destinationWrap .destinationContent h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff
+}
+
+.destinationWrap .destinationContent p {
+  color: #f5f5f5
+}
+
+.destinationWrap .destinationContent .btn {
+  border-radius: 5px;
+  padding: 7px 20px;
+  font-weight: 500;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .5s all;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  white-space: nowrap
+}
+
+.destinationWrap .destinationContent .btn i {
+  margin-left: 6px
+}
+
+.destinationWrap:hover {
+  -webkit-transition: 500ms all ease;
+  -ms-transition: 500ms all ease;
+  transition: 500ms all ease
+}
+
+.destinationWrap:hover .btn {
+  top: 100px;
+  transition: .5s all;
+  opacity: 1
+}
+
+.destinationWrap:hover .destinationContent {
+  -webkit-transition: ease-in-out 1s;
+  -ms-transition: ease-in-out 1s;
+  transition: ease-in-out 1s;
+  height: 100%;
+  background: linear-gradient(359.14deg, #000000 -1.08%, rgba(0, 0, 0, 0.6) 113.69%)
+}
+
+.ViewMore {
+  background-color: #3b9cd6 !important;
+  border: 1px solid #3b9cd6 !important;
+  box-shadow: inset 0 0 0 0 #fff !important;
+  color: #fff !important;
+}
+
+.ViewMore:hover {
+  background-color: #fff !important;
+  border-color: #3b9cd6 !important;
+  color: #3b9cd6 !important;
+  box-shadow: inset 0 50px 0 0 #fff !important;
+  transition: all .5s !important;
+}
+
+/* ================================ Local Packages Section Css End ================================ */
+
+
+/* ================================ OneWay Cab Routes Section Css Start ================================ */
+
+.cabRoutesSec {
+  background: #f2f7f6
+}
+
+.cabRoutesSecHeading {
+  text-align: center;
+  margin: 0 0 40px
+}
+
+.cabRoutesSecHeading h2 {
+  position: relative;
+  font-weight: 700;
+  margin: 0 0 30px
+}
+
+.cabRoutesSecHeading h2:after {
+  content: "";
+  position: absolute;
+  background-image: url(../Images/bg/title-head.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 0;
+  height: 11px;
+  right: 0;
+  bottom: -22px;
+  z-index: 99
+}
+
+.cabRoutesSecHeading p {
+  max-width: 518px;
+  margin: auto;
+  font-size: 18px
+}
+
+.cabRoutesItem {
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 0 24px;
+  padding: 15px
+}
+
+.cabRoutesItem .cabRoutesImg {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 0 10px
+}
+
+.cabRoutesItem:hover .cabRoutesImg img {
+  -webkit-transform: scale(1.12);
+  -moz-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+.cabRoutesItem .cabRoutesImg img {
+  border-radius: 10px;
+  width: 100%;
+  transform: translateZ(0);
+  transition: all 2000mscubic-bezier(.19, 1, .22, 1) 0ms;
+}
+
+.cabRoutesItem .cabRoutesImg .fav-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 1;
+  font-size: 14px
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesFeatures {
+  position: relative;
+  border-bottom: 1px solid #f4f4f4;
+  margin: 0 0 15px;
+  padding: 0 0 15px
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesFeatures .cabRoutesTitle {
+  margin-bottom: 5px;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesFeatures .cabRoutesTitle a {
+  font-weight: 500;
+  color: #111
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesFeatures .list-rating i.filled {
+  color: #ff9307 !important;
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesFeatures .list-rating span {
+  color: #676767 !important;
+  margin: 0 0 0 5px !important;
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesDetails {
+  margin: 0 0 15px
+}
+
+.cabRoutesItem .cabRoutesContent .cabRoutesDetails ul {
+  margin: 0 0 10px
+}
+
+.cabRoutesItem:hover {
+  -webkit-transition: all .5s !important;
+  -moz-transition: all .5s !important;
+  -o-transition: all .5s !important;
+  transition: all .5s !important;
+}
+
+.cabRoutesItem:hover .cabRoutesTitle a {
+  color: #3b9cd6 !important;
+}
+
+
+.cabRoutesItem:hover .bookTaxi {
+  background-color: #3b9cd6 !important;
+  color: #fff;
+  border-radius: 5px
+}
+
+.cabRoutesItem:hover .img-count {
+  -webkit-transition: 500ms all ease;
+  -ms-transition: 500ms all ease;
+  transition: 500ms all ease;
+  opacity: 1
+}
+
+.cabRoutesItem .cabRoutesContent .listing-button .bookTaxi {
+  background: #201f1d;
+  position: relative;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 7px 10px;
+  width: 100%;
+}
+
+/* ================================ OneWay Cab Routes Section Css End ================================ */
+
+
+/* ================================ Blogs Section Css Start ================================ */
+
+.blogSec {
+  position: relative;
+  padding: 80px 0
+}
+
+.blogSec.blogNewSec .blogGrid {
+  margin-bottom: 40px;
+}
+
+.blogSec .blogGrid {
+  background: #fff;
+  margin: 0 0 25px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blogSec.blogNewSec .blogGrid {
+  margin-bottom: 40px
+}
+
+.blogSec .blogImg {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0
+}
+
+.blogSec .blogImg>a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto
+}
+
+.blogSec .blogImg img {
+  display: block;
+  position: relative;
+  border-radius: 10px 10px 0 0;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  -moz-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+  -ms-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+  -o-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+  -webkit-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+  transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+  width: 100%
+}
+
+.blogSec .blogImg img:hover {
+  -webkit-transform: scale(1.35) rotate(15deg);
+  -moz-transform: scale(1.35) rotate(15deg);
+  transform: scale(1.35) rotate(15deg)
+}
+
+.blogSec .blogGrid .blogImg {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0
+}
+
+.blogSec .blogContent {
+  padding: 20px
+}
+
+.blogSec .blogContent .blogCategory {
+  margin: 0 0 15px
+}
+
+.blogSec .blogContent .blogCategory a {
+  background: #3b9cd6;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 5px;
+  padding: 5px 14px
+}
+
+.blogSec .blogContent .blogCategory a:hover {
+  background: #141432;
+  color: #fff
+}
+
+.blogSec .blogContent .blogTitle {
+  margin: 0 0 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden
+}
+
+.blogSec .blogContent .blogTitle a {
+  font-weight: 700;
+  font-size: 24px;
+  color: #201f1d
+}
+
+.blogSec .blogContent .blogTitle a:hover {
+  color: #3b9cd6
+}
+
+.blogSec .blogContent .blogDescription {
+  margin: 0 0 25px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden
+}
+
+.blogSec .blogContent .blogMetaItem {
+  background: #f2f7f6;
+  border-radius: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 15px;
+  padding: 13px
+}
+
+.blogSec .blogContent .blogMetaItem .date-icon i {
+  color: #2f2f2f;
+  font-weight: 400;
+  margin: 0 7px
+}
+
+.blogSec .blogContent .blogMetaItem .date-icon span {
+  font-size: 14px
+}
+
+/* ================================ Blogs Section Css End ================================ */
+
+
+/* ================================ Our Top Cab Root Section Css Start ================================ */
+.box {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 4rem;
+  box-shadow: 0 4px 24px 0 rgba(225, 225, 225, .25);
+  margin-top: 57px;
+}
+
+/* ================================ Our Top Cab Root Section Css End ================================ */
+
+
+/* ================================ Customer Reviews Anywaycab Section Css Start ================================ */
+
+.clientReviewSec {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 80px 0
+}
+
+@media(max-width:991.98px) {
+  .clientReviewSec {
+    padding-bottom: 50px
+  }
+}
+
+@media(max-width:767.98px) {
+  .clientReviewSec {
+    padding-bottom: 40px
+  }
+}
+
+.clientReviewSec .clienReviewColors span {
+  position: absolute;
+  z-index: -1
+}
+
+.clienReviewColors .round-small.bg-orange {
+  background: #3b9cd6;
+}
+
+.clientReviewSec .clienReviewColors span:first-child {
+  right: 5%;
+  top: 50px
+}
+
+.clienReviewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+@media(max-width:991.98px) {
+  .clienReviewHeader {
+    margin-bottom: 30px
+  }
+}
+
+.clienReviewHeader h2 {
+  font-size: 31px;
+  color: #0a152f;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 20px
+}
+
+@media(max-width:991.98px) {
+  .clienReviewHeader h2 {
+    font-size: 32px
+  }
+}
+
+@media(max-width:767.98px) {
+  .clienReviewHeader h2 {
+    font-size: 28px
+  }
+}
+
+.clienReviewHeader h2::after {
+  content: "";
+  background-image: url(../Images/bg/title-bar.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px
+}
+
+.clienReviewHeader p {
+  color: #676767;
+  font-size: 18px;
+  max-width: 730px;
+  text-align: center
+}
+
+@media(max-width:991.98px) {
+  .clienReviewHeader p {
+    font-size: 16px
+  }
+}
+
+
+
+/* ================================ Customer Reviews Anywaycab Section Css End ================================ */
