@@ -6,25 +6,25 @@ import { Col, Container, Row } from 'react-bootstrap'
 const OurTopCabRoot = () => {
   return (
     <>
-      <section class="abouttAnyWaySec mt-120">
-        <div class="aboutSecRound">
-          <span class="bg-orange round-small"></span>
-          <span class="bg-dark-blue round-small"></span>
-          <span class="bg-dark-blue round-small"></span>
-          <span class="bg-dark-blue round-big"></span>
+      <section className="abouttAnyWaySec mt-120">
+        <div className="aboutSecRound">
+          <span className="bg-orange round-small"></span>
+          <span className="bg-dark-blue round-small"></span>
+          <span className="bg-dark-blue round-small"></span>
+          <span className="bg-dark-blue round-big"></span>
         </div>
-        <div class="aboutSecBg">
+        <div className="aboutSecBg">
           <img src={dotted} alt="Bg" />
           <img src={anchor} alt="Bg" />
         </div>
         <Container>
-          <Row class="align-items-center position-relative">
+          <Row className="align-items-center position-relative">
             <Col md={12}>
-              <div class="box">
-                <h3 class="pt-2 pb-3">Top Cab Root</h3>
+              <div className="box">
+                <h3 className="pt-2 pb-3">Top Cab Root</h3>
                 <Row>
                   <Col md={4}>
-                    <ul class="root">
+                    <ul className="root">
                       <li>
                         <a href="city-cab.html">Surat to Ahmedabad Cab</a>
                       </li>
@@ -43,7 +43,7 @@ const OurTopCabRoot = () => {
                     </ul>
                   </Col>
                   <Col md={4}>
-                    <ul class="root">
+                    <ul className="root">
                       <li>
                         <a href="city-cab.html">Surat to Ahmedabad Cab</a>
                       </li>
@@ -62,7 +62,7 @@ const OurTopCabRoot = () => {
                     </ul>
                   </Col>
                   <Col md={4}>
-                    <ul class="root">
+                    <ul className="root">
                       <li>
                         <a href="city-cab.html">Surat to Ahmedabad Cab</a>
                       </li>
@@ -81,10 +81,10 @@ const OurTopCabRoot = () => {
                     </ul>
                   </Col>
                 </Row>
-                <h3 class="pt-2 pb-3">Top Cab Root</h3>
-                <div class="row">
+                <h3 className="pt-2 pb-3">Top Cab Root</h3>
+                <div className="row">
                   <Col md={4}>
-                    <ul class="root">
+                    <ul className="root">
                       <li>
                         <a href="city-cab.html">Surat to Ahmedabad Cab</a>
                       </li>
@@ -103,7 +103,7 @@ const OurTopCabRoot = () => {
                     </ul>
                   </Col>
                   <Col md={4}>
-                    <ul class="root">
+                    <ul className="root">
                       <li>
                         <a href="city-cab.html">Surat to Ahmedabad Cab</a>
                       </li>
@@ -122,7 +122,7 @@ const OurTopCabRoot = () => {
                     </ul>
                   </Col>
                   <Col md={4}>
-                    <ul class="root">
+                    <ul className="root">
                       <li>
                         <a href="city-cab.html">Surat to Ahmedabad Cab</a>
                       </li>

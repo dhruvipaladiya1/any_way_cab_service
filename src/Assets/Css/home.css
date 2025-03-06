@@ -1552,6 +1552,78 @@ h4.taxiSubHead {
   }
 }
 
+.testimonial-item {
+  min-height: 318px;
+}
 
+.client-review-card {
+  box-shadow: 0 4px 24px 0 rgba(225, 225, 225, .2509803922);
+  background: #fff;
+  border-radius: 5px;
+  padding: 24px;
+  margin-bottom: 24px
+}
+
+@media(max-width:991.98px) {
+  .client-review-card {
+    padding: 15px
+  }
+}
+
+.client-review-card .client-review-content {
+  background: #fcfcfc;
+  padding: 24px;
+  border-radius: 5px;
+  text-align: center;
+  height: 100%;
+  position: relative
+}
+
+@media(max-width:991.98px) {
+  .client-review-card .client-review-content {
+    padding: 15px
+  }
+}
+
+.client-review-card .client-review-content .client-img .img-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto
+}
+
+.client-review-card .client-review-content .client-img .img-avatar img {
+  width: 100%;
+  border-radius: 50%
+}
+
+.client-review-card .client-review-content p {
+  margin: 24px 0;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box
+}
+
+.client-review-card .client-review-content h5 a {
+  font-size: 18px;
+  color: #0a152f
+}
+
+.client-review-card .client-review-content span {
+  color: #676767;
+  font-size: 14px;
+  display: block
+}
+
+.client-review-card .client-review-content .quataion-mark {
+  position: absolute;
+  right: 15px;
+  top: 15px
+}
 
 /* ================================ Customer Reviews Anywaycab Section Css End ================================ */

@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Assets/Css/all-fontawesome.min.css';
 import './Assets/Css/flaticon.css';
 
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 // import css
 import './Assets/Css/app.css'
 import './Assets/Css/home.css'
