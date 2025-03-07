@@ -13,6 +13,7 @@
   .customerCounterGroup .customerGroup .customerCount .countImg img {
     width: 35px
   }
+
 }
 
 @media(max-width:1199.98px) {
@@ -225,6 +226,32 @@
   .blogSec .blogContent .blogTitle a {
     font-size: 20px
   }
+
+
+  /* ================================ Customer Reviews Anywaycab Section Css Start ================================ */
+  .clientReviewSec {
+    padding-bottom: 50px
+  }
+
+  .clientReviewHeader {
+    margin-bottom: 30px
+  }
+
+  .clientReviewHeader h2 {
+    font-size: 32px
+  }
+
+  .clientReviewHeader p {
+    font-size: 16px
+  }
+
+  .clientReviewCard {
+    padding: 15px
+  }
+
+  .clientReviewCard .clientReviewContent {
+    padding: 15px
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -396,6 +423,15 @@
   /* ================================ Local Packages Section Css Start*/
   .destinationWrap:hover .btn {
     top: 30px
+  }
+
+  /* ================================ Customer Reviews Anywaycab Section Css Start ================================ */
+  .clientReviewSec {
+    padding-bottom: 40px
+  }
+
+  .clientReviewHeader h2 {
+    font-size: 28px
   }
 }
 

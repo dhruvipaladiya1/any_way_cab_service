@@ -29,7 +29,21 @@ import Blogs from './Blogs/Blogs'
 import OurTopCabRoot from './OurTaxiRoutes/OurTopCabRoot'
 import CustomerReviews from './CustomerReviews/CustomerReviews'
 
+import anyCatSec from "../Assets/Images/bg/any-cat-sec-bg-03.png"
+import Slider1 from "../Assets/Images/g1.png"
+import Slider2 from "../Assets/Images/g2.png"
+import Slider3 from "../Assets/Images/g3.png"
+import Slider4 from "../Assets/Images/g4.png"
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 const Home = () => {
+
+  const testimonials = [Slider1, Slider2, Slider3, Slider4, Slider1]
 
   return (
     <>
@@ -229,6 +243,59 @@ const Home = () => {
 
       {/* Customer Reviews Anywaycab Section */}
       <CustomerReviews />
+
+      {/* Slider Section */}
+      <section class="top-features-anys bg-light">
+        <div class="sec-bg">
+          <img src={anyCatSec} class="design-round" alt="Img" />
+        </div>
+
+        <div class="container">
+          <div class="charter-company-slider owl-carousel">
+            <div class="charter-company-logo">
+              <span> <img src={Slider1} /></span>
+            </div>
+            <div class="charter-company-logo">
+              <span> <img src={Slider2} /></span>
+            </div>
+            <div class="charter-company-logo">
+              <span> <img src={Slider3} /></span>
+            </div>
+            <div class="charter-company-logo">
+              <span> <img src={Slider4} /></span>
+            </div>
+          </div>
+        </div>
+
+        <Container>
+          <Swiper
+            watchSlidesProgress={true}
+            slidesPerView={4}
+            spaceBetween={30}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
+          >
+            {testimonials?.length > 0 && testimonials?.map((item, id) => {
+              return (
+                <SwiperSlide>
+                  <div className='item' key={id}>
+                    <div className='charter-company-slider'>
+                      <div class="charter-company-logo">
+                        <span> <img src={item} /></span>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
+        </Container>
+      </section>
 
 
     </>
